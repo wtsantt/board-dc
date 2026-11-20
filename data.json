@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at": "2026-11-20 11:29",
+    "updated_at": "2026-11-20 11:32",
     "data_as_of": "2026-11-20",
     "tz": "Asia/Shanghai",
     "sources": {
       "orders": "WooCommerce（SSH wp eval，HPOS）",
       "cloudflare": "Cloudflare GraphQL（zone ad11…0515）",
-      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-16 起，8 个文件，314489 行）",
+      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-16 起，8 个文件，314610 行）",
       "content": "content-status.json（人工维护的事实记录）+ WooCommerce 博客实查"
     },
     "errors": []
@@ -18,7 +18,7 @@
     "orders_total": 5,
     "revenue_total": 569.29,
     "aov": 113.86,
-    "visitors_today": 438,
+    "visitors_today": 439,
     "human_product_views_today": 28,
     "conversion_today_pct": 0.0,
     "days_since_last_real_order": 70
@@ -221,14 +221,14 @@
     },
     {
       "date": "2026-11-20",
-      "cf_requests": 12797,
-      "cf_pageviews": 3498,
-      "cf_cached": 3491,
-      "cf_uniques": 438,
+      "cf_requests": 12862,
+      "cf_pageviews": 3520,
+      "cf_cached": 3511,
+      "cf_uniques": 439,
       "log_covered": true,
       "log_partial": true,
-      "origin_total": 36543,
-      "origin_bot": 34289,
+      "origin_total": 36664,
+      "origin_bot": 34410,
       "origin_human": 2254,
       "human_product_views": 28,
       "human_unique_ips": 435,
@@ -477,7 +477,7 @@
     "homepage_heroes_found": 5,
     "homepage_error": null,
     "wp_version": "7.1.5",
-    "site_now": "2026-11-19 19:29:58",
+    "site_now": "2026-11-19 19:32:49",
     "plugin_updates": [
       {
         "name": "flexible-shipping",
