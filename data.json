@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "updated_at": "2026-11-20 11:29",
+    "data_as_of": "2026-11-20",
+    "tz": "Asia/Shanghai",
+    "sources": {
+      "orders": "WooCommerce（SSH wp eval，HPOS）",
+      "cloudflare": "Cloudflare GraphQL（zone ad11…0515）",
+      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-16 起，8 个文件，314489 行）",
+      "content": "content-status.json（人工维护的事实记录）+ WooCommerce 博客实查"
+    },
+    "errors": []
+  },
+  "kpis": {
+    "orders_today": 0,
+    "revenue_today": 0,
+    "orders_7d": 0,
+    "orders_total": 5,
+    "revenue_total": 569.29,
+    "aov": 113.86,
+    "visitors_today": 438,
+    "human_product_views_today": 28,
+    "conversion_today_pct": 0.0,
+    "days_since_last_real_order": 70
+  },
+  "traffic_daily": [
+    {
+      "date": "2026-11-07",
+      "cf_requests": 95437,
+      "cf_pageviews": 44202,
+      "cf_cached": 1906,
+      "cf_uniques": 649,
+      "log_covered": false,
+      "log_partial": true,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-08",
+      "cf_requests": 96562,
+      "cf_pageviews": 44512,
+      "cf_cached": 1321,
+      "cf_uniques": 802,
+      "log_covered": false,
+      "log_partial": true,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-09",
+      "cf_requests": 97225,
+      "cf_pageviews": 10846,
+      "cf_cached": 1692,
+      "cf_uniques": 1854,
+      "log_covered": false,
+      "log_partial": true,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-10",
+      "cf_requests": 93037,
+      "cf_pageviews": 1300,
+      "cf_cached": 1891,
+      "cf_uniques": 953,
+      "log_covered": false,
+      "log_partial": true,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-11",
+      "cf_requests": 96753,
+      "cf_pageviews": 1714,
+      "cf_cached": 1477,
+      "cf_uniques": 1317,
+      "log_covered": false,
+      "log_partial": true,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-12",
+      "cf_requests": 100698,
+      "cf_pageviews": 18298,
+      "cf_cached": 1491,
+      "cf_uniques": 1446,
+      "log_covered": false,
+      "log_partial": true,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-13",
+      "cf_requests": 117387,
+      "cf_pageviews": 29520,
+      "cf_cached": 2710,
+      "cf_uniques": 1433,
+      "log_covered": false,
+      "log_partial": true,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-14",
+      "cf_requests": 105754,
+      "cf_pageviews": 28085,
+      "cf_cached": 1805,
+      "cf_uniques": 1196,
+      "log_covered": false,
+      "log_partial": true,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-15",
+      "cf_requests": 97172,
+      "cf_pageviews": 25792,
+      "cf_cached": 1148,
+      "cf_uniques": 1166,
+      "log_covered": false,
+      "log_partial": true,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-16",
+      "cf_requests": 104318,
+      "cf_pageviews": 28319,
+      "cf_cached": 953,
+      "cf_uniques": 2353,
+      "log_covered": true,
+      "log_partial": true,
+      "origin_total": 25327,
+      "origin_bot": 24785,
+      "origin_human": 542,
+      "human_product_views": 6,
+      "human_unique_ips": 244,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-17",
+      "cf_requests": 119505,
+      "cf_pageviews": 32287,
+      "cf_cached": 29053,
+      "cf_uniques": 1463,
+      "log_covered": true,
+      "log_partial": false,
+      "origin_total": 94834,
+      "origin_bot": 89331,
+      "origin_human": 5503,
+      "human_product_views": 128,
+      "human_unique_ips": 596,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-18",
+      "cf_requests": 106496,
+      "cf_pageviews": 30040,
+      "cf_cached": 29556,
+      "cf_uniques": 1616,
+      "log_covered": true,
+      "log_partial": false,
+      "origin_total": 81754,
+      "origin_bot": 77656,
+      "origin_human": 4098,
+      "human_product_views": 69,
+      "human_unique_ips": 511,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-19",
+      "cf_requests": 114726,
+      "cf_pageviews": 31789,
+      "cf_cached": 31484,
+      "cf_uniques": 1423,
+      "log_covered": true,
+      "log_partial": false,
+      "origin_total": 76031,
+      "origin_bot": 72000,
+      "origin_human": 4031,
+      "human_product_views": 192,
+      "human_unique_ips": 762,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-20",
+      "cf_requests": 12797,
+      "cf_pageviews": 3498,
+      "cf_cached": 3491,
+      "cf_uniques": 438,
+      "log_covered": true,
+      "log_partial": true,
+      "origin_total": 36543,
+      "origin_bot": 34289,
+      "origin_human": 2254,
+      "human_product_views": 28,
+      "human_unique_ips": 435,
+      "partial_day": true
+    }
+  ],
+  "traffic_sources": {
+    "window": "2026-11-16 至 2026-11-20（仅日志覆盖日期内的人类产品页浏览）",
+    "total": 423,
+    "split": {
+      "google": 0,
+      "pinterest": 0,
+      "instagram": 0,
+      "direct": 252,
+      "internal": 171,
+      "other": 0
+    }
+  },
+  "products": [
+    {
+      "id": 8605,
+      "hero": true,
+      "exists": true,
+      "name": "Discreet Twisted Cable Chain Day Collar — Gold-Tone with Polished Barrel Clasp",
+      "slug": "discreet-twisted-cable-chain-day-collar-gold-tone-with-polished-barrel-clasp",
+      "price": 89,
+      "regular_price": 89,
+      "stock": 50,
+      "stock_status": "instock",
+      "status": "publish",
+      "url": "https://discreetcollars.com/product/discreet-twisted-cable-chain-day-collar-gold-tone-with-polished-barrel-clasp/",
+      "views_14d": 27,
+      "views_today": 0
+    },
+    {
+      "id": 8601,
+      "hero": true,
+      "exists": true,
+      "name": "Discreet Braided Mesh Chain Day Collar — Polished Stainless Steel with Smooth Barrel Clasp",
+      "slug": "discreet-braided-mesh-chain-necklace-polished-stainless-steel-with-smooth-barrel-clasp",
+      "price": 79,
+      "regular_price": 79,
+      "stock": 50,
+      "stock_status": "instock",
+      "status": "publish",
+      "url": "https://discreetcollars.com/product/discreet-braided-mesh-chain-necklace-polished-stainless-steel-with-smooth-barrel-clasp/",
+      "views_14d": 22,
+      "views_today": 1
+    },
+    {
+      "id": 8663,
+      "hero": true,
+      "exists": true,
+      "name": "Discreet Gold Block Bar Necklace — Gold-Tone Titanium Steel on Fine Snake Chain with Lobster Clasp",
+      "slug": "discreet-gold-block-bar-necklace-gold-tone-titanium-steel-on-fine-snake-chain-with-lobster-clasp",
+      "price": 79,
+      "regular_price": 79,
+      "stock": 50,
+      "stock_status": "instock",
+      "status": "publish",
+      "url": "https://discreetcollars.com/product/discreet-gold-block-bar-necklace-gold-tone-titanium-steel-on-fine-snake-chain-with-lobster-clasp/",
+      "views_14d": 13,
+      "views_today": 0
+    },
+    {
+      "id": 8599,
+      "hero": true,
+      "exists": true,
+      "name": "Discreet Beaded Ball Chain Day Collar — Polished Stainless Steel with Textured Barrel Clasp",
+      "slug": "discreet-beaded-ball-chain-necklace-polished-stainless-steel-with-textured-barrel-clasp",
+      "price": 69,
+      "regular_price": 69,
+      "stock": 50,
+      "stock_status": "instock",
+      "status": "publish",
+      "url": "https://discreetcollars.com/product/discreet-beaded-ball-chain-necklace-polished-stainless-steel-with-textured-barrel-clasp/",
+      "views_14d": 21,
+      "views_today": 1
+    },
+    {
+      "id": 8592,
+      "hero": true,
+      "exists": true,
+      "name": "Discreet Mirror Pendant Necklace - Polished Titanium Steel on Fine Rope Chain",
+      "slug": "discreet-mirror-pendant-necklace-polished-titanium-steel-on-fine-rope-chain",
+      "price": 49,
+      "regular_price": 49,
+      "stock": 50,
+      "stock_status": "instock",
+      "status": "publish",
+      "url": "https://discreetcollars.com/product/discreet-mirror-pendant-necklace-polished-titanium-steel-on-fine-rope-chain/",
+      "views_14d": 15,
+      "views_today": 1
+    },
+    {
+      "id": 8809,
+      "hero": false,
+      "exists": true,
+      "name": "Polished Silver Double-Layer Openwork Bangle",
+      "slug": "polished-silver-double-layer-openwork-bangle",
+      "price": 49,
+      "regular_price": 49,
+      "stock": 50,
+      "stock_status": "instock",
+      "status": "publish",
+      "url": "https://discreetcollars.com/product/polished-silver-double-layer-openwork-bangle/",
+      "views_14d": 3,
+      "views_today": 0
+    },
+    {
+      "id": 8810,
+      "hero": false,
+      "exists": true,
+      "name": "Brushed Silver Star Cutout Bangle",
+      "slug": "brushed-silver-star-cutout-bangle",
+      "price": 49,
+      "regular_price": 49,
+      "stock": 50,
+      "stock_status": "instock",
+      "status": "publish",
+      "url": "https://discreetcollars.com/product/brushed-silver-star-cutout-bangle/",
+      "views_14d": 3,
+      "views_today": 0
+    }
+  ],
+  "content": {
+    "blog_last": {
+      "id": 8822,
+      "title": "Why Your Necklace Turns Your Neck Green — and Why It Isn't an Allergy",
+      "date": "2026-11-19 18:20:05",
+      "url": "https://discreetcollars.com/why-your-necklace-turns-your-neck-green/",
+      "date_cst": "2026-11-20 10:20:05"
+    },
+    "blog_7d": 5,
+    "blog_next": "明日 10:10",
+    "pins_published": [
+      {
+        "board": "Discreet Day Collars",
+        "date": "2026-11-17",
+        "file": "dc-8601-r1.jpg",
+        "pin_url": null,
+        "sku": 8601,
+        "title": "Braided Mesh Day Collar in Polished Steel"
+      },
+      {
+        "board": "Discreet Day Collars",
+        "date": "2026-11-18",
+        "file": "dc-8663-r1.jpg",
+        "pin_url": "https://www.pinterest.com/pin/1125970344378153307/",
+        "sku": 8663,
+        "title": "Gold Block Bar Necklace for Everyday Wear"
+      },
+      {
+        "board": "Discreet Day Collars",
+        "date": "2026-11-19",
+        "file": "dc-8599-r1.jpg",
+        "pin_url": "https://www.pinterest.com/pin/1125970344378224389/",
+        "sku": 8599,
+        "title": "Beaded Ball Chain Day Collar in Steel"
+      }
+    ],
+    "pins_scheduled": [
+      {
+        "board": "Discreet Day Collars",
+        "date": "2026-11-20",
+        "file": "dc-8592-r1.jpg",
+        "sku": 8592,
+        "title": "Mirror Pendant Necklace With a Quiet Detail"
+      },
+      {
+        "board": "Discreet Day Collars",
+        "date": "2026-11-21",
+        "file": "pin-07-sizing.jpg",
+        "sku": 8599,
+        "title": "Pin 07 · 尺码指南"
+      },
+      {
+        "board": "Discreet Day Collars",
+        "date": "2026-11-22",
+        "file": "pin-08-final.jpg",
+        "sku": 8599,
+        "title": "Pin 08 · Beaded Ball Chain Necklace"
+      },
+      {
+        "board": "Everyday Silver",
+        "date": "2026-11-23",
+        "file": "dc-8809-r1.jpg",
+        "sku": 8809,
+        "title": "Polished Silver Double-Layer Openwork Bangle"
+      },
+      {
+        "board": "Everyday Silver",
+        "date": "2026-11-24",
+        "file": "dc-8810-r1.jpg",
+        "sku": 8810,
+        "title": "Brushed Silver Star Cutout Bangle"
+      },
+      {
+        "board": "Discreet Day Collars",
+        "date": "2026-11-25",
+        "file": "dc-8663-r2.jpg",
+        "sku": 8663,
+        "title": "Gold Block Bar Necklace, Up Close"
+      },
+      {
+        "board": "Discreet Day Collars",
+        "date": "2026-11-27",
+        "file": "dc-8592-r2.jpg",
+        "sku": 8592,
+        "title": "Mirror Pendant, Closer to the Details"
+      },
+      {
+        "board": "Discreet Day Collars",
+        "date": "2026-12-04",
+        "file": "dc-8592-r3.jpg",
+        "sku": 8592,
+        "title": "Mirror Pendant Necklace in a Real Flat Lay"
+      }
+    ],
+    "pins_today": [
+      {
+        "board": "Discreet Day Collars",
+        "date": "2026-11-20",
+        "file": "dc-8592-r1.jpg",
+        "sku": 8592,
+        "title": "Mirror Pendant Necklace With a Quiet Detail"
+      }
+    ],
+    "next_pin": {
+      "board": "Discreet Day Collars",
+      "date": "2026-11-20",
+      "file": "dc-8592-r1.jpg",
+      "sku": 8592,
+      "title": "Mirror Pendant Necklace With a Quiet Detail"
+    },
+    "ig_last": {
+      "date": "2026-11-19",
+      "media_id": "18100798085434791",
+      "title": "8663 金色方块轮播（3 张实物图）",
+      "url": "https://www.instagram.com/p/Df4-tlSDlFs/"
+    },
+    "ig_pending": "8599 圆珠颈圈轮播草稿已备好，待 king 回“发”；8592 轮播待其 Pin 发出后再发。"
+  },
+  "health": {
+    "homepage_status": 200,
+    "homepage_heroes_found": 5,
+    "homepage_error": null,
+    "wp_version": "7.1.5",
+    "site_now": "2026-11-19 19:29:58",
+    "plugin_updates": [
+      {
+        "name": "flexible-shipping",
+        "version": "6.13.8",
+        "update_version": "6.13.9"
+      },
+      {
+        "name": "kadence-blocks",
+        "version": "3.9.1.1",
+        "update_version": "3.9.1.2"
+      },
+      {
+        "name": "woo-stripe-payment",
+        "version": "4.0.20",
+        "update_version": "4.0.21"
+      },
+      {
+        "name": "woocommerce",
+        "version": "11.3.0",
+        "update_version": "11.3.1"
+      },
+      {
+        "name": "wpforms-lite",
+        "version": "2.0.4",
+        "update_version": "2.0.5.1"
+      }
+    ],
+    "plugin_updates_error": null
+  },
+  "integrations": {
+    "gmc": {
+      "status": "待核查",
+      "reason": "2026-11-19 Merchant Center 发来 Misrepresentation 警告（Merchant ID 5675110197），免费列表/购物广告无法展示；须 king 登录 Merchant Center 看具体原因并申请复核；GMC 登录被 Google 两步验证挡住。"
+    },
+    "gsc": {
+      "status": "未接入",
+      "reason": "Search Console 登录被 Google 两步验证挡住；8599/8592 索引请求与 /items/ 前缀移除待 king 发验证码。"
+    },
+    "ga4": {
+      "status": "未接入",
+      "reason": "GA4（G-YSHC1H91WK）数据拉取被 Google 两步验证挡住，无法自动读取。"
+    },
+    "funnel": {
+      "status": "未接入",
+      "reason": "站上无加购/结账事件追踪，加购数与结账数无法统计；只有订单数是实的。"
+    }
+  },
+  "goal_progress": {
+    "target_per_day": 10,
+    "orders_today": 0,
+    "orders_7d_avg": 0.0,
+    "progress_today_pct": 0.0,
+    "last_real_order": {
+      "id": 8499,
+      "date": "2026-09-10 15:43:14",
+      "total": 132.25,
+      "currency": "USD",
+      "status": "completed",
+      "payment": "stripe_cc",
+      "date_cst": "2026-09-11 07:43:14"
+    },
+    "days_since_last_real_order": 70
+  },
+  "alerts": [
+    {
+      "level": "red",
+      "tag": "GMC",
+      "text": "Merchant Center Misrepresentation 警告（2026-11-19，Merchant ID 5675110197）：免费列表与购物广告无法展示，须 king 登录 Merchant Center 看具体原因并申请复核。"
+    },
+    {
+      "level": "yellow",
+      "tag": "插件更新",
+      "text": "有 5 个插件可更新：flexible-shipping 6.13.8→6.13.9、kadence-blocks 3.9.1.1→3.9.1.2、woo-stripe-payment 4.0.20→4.0.21、woocommerce 11.3.0→11.3.1、wpforms-lite 2.0.4→2.0.5.1（2026-11-19 曾更新失败 3 个，更新前请先备份）。"
+    },
+    {
+      "level": "info",
+      "tag": "内容",
+      "text": "博客《Why Your Necklace Turns Your Neck Green — and Why It Isn't an Allergy》已发布；Pin 已排期今日：Mirror Pendant Necklace With a Quiet Detail。"
+    }
+  ],
+  "notes": [
+    "2026-11-17 起 Cloudflare 边缘缓存上线：源站日志只记录未命中缓存的请求，人类产品页浏览为下限，低于真实值。",
+    "源站日志只保留约 2026-11-16 起（旧日志已轮转），此前的人类浏览数无记录。",
+    "Cloudflare 今日数据为当日部分值（按 UTC 日统计，到采集时刻）。",
+    "订单与博客时间为站内时区（UTC-8）换算为北京时间后统计；站内原记录如 #8499 为 2026-09-10。",
+    "加购/结账数未接入：站上无事件追踪，只有订单数是实的。"
+  ]
+}

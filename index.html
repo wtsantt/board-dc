@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>总览 · Discreet Collars 电商看板</title><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:linear-gradient(180deg,#0d1320 0%,#0a0f1a 100%);color:#e8edf5;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  padding:24px 20px 60px;min-height:100vh}
+.wrap{max-width:1080px;margin:0 auto}
+h1{font-size:26px;letter-spacing:.5px}
+.sub{color:#93a1b5;font-size:13px;margin-top:6px}
+.nav{display:flex;gap:8px;margin:20px 0 24px;flex-wrap:wrap}
+.nav a{padding:9px 18px;border-radius:999px;background:rgba(255,255,255,.05);
+  border:1px solid rgba(255,255,255,.1);color:#c7d2e0;text-decoration:none;font-size:14px}
+.nav a.on{background:#38bdf8;color:#06202e;border-color:#38bdf8;font-weight:600}
+.card{background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.09);
+  border-radius:16px;padding:20px 22px;margin-bottom:18px;backdrop-filter:blur(8px)}
+.card h2{font-size:16px;margin-bottom:12px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:18px}
+.kpi{background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.09);
+  border-radius:16px;padding:16px 18px}
+.kpi .label{font-size:12px;color:#93a1b5}
+.kpi .num{font-size:30px;font-weight:700;margin-top:4px}
+.kpi .unit{font-size:13px;color:#93a1b5;font-weight:400}
+.kpi .note{font-size:12px;color:#93a1b5;margin-top:4px}
+.alert{border-radius:12px;padding:12px 16px;margin-bottom:10px;font-size:14px;line-height:1.55}
+.alert.red{background:rgba(248,113,113,.12);border:1px solid rgba(248,113,113,.4)}
+.alert.yellow{background:rgba(251,191,36,.1);border:1px solid rgba(251,191,36,.35)}
+.alert.green{background:rgba(52,211,153,.1);border:1px solid rgba(52,211,153,.35)}
+.alert.info{background:rgba(56,189,248,.08);border:1px solid rgba(56,189,248,.3)}
+.alert b{margin-right:6px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;color:#93a1b5;font-weight:500;padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.12)}
+td{padding:9px 10px;border-bottom:1px solid rgba(255,255,255,.06)}
+tr:last-child td{border-bottom:none}
+.num{font-variant-numeric:tabular-nums;text-align:right}
+.bars{display:flex;align-items:flex-end;gap:10px;height:150px;padding-top:8px}
+.bar-col{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
+.bar{width:100%;max-width:44px;border-radius:6px 6px 0 0;background:linear-gradient(180deg,#38bdf8,#1d7fb8)}
+.bar.hpv{background:linear-gradient(180deg,#a78bfa,#7c5cd6)}
+.bar-val{font-size:11px;color:#c7d2e0}
+.bar-date{font-size:11px;color:#93a1b5}
+.legend{font-size:12px;color:#93a1b5;margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin:0 4px 0 12px;vertical-align:-1px}
+.progress{height:14px;background:rgba(255,255,255,.08);border-radius:999px;overflow:hidden}
+.progress i{display:block;height:100%;background:linear-gradient(90deg,#38bdf8,#34d399)}
+.muted{color:#93a1b5;font-size:13px;line-height:1.6}
+.small{font-size:12px;color:#93a1b5}
+.tag{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12px}
+.tag.red{background:rgba(248,113,113,.15);color:#fca5a5}
+.tag.yellow{background:rgba(251,191,36,.15);color:#fcd34d}
+.tag.green{background:rgba(52,211,153,.15);color:#6ee7b7}
+.tag.grey{background:rgba(255,255,255,.08);color:#c7d2e0}
+footer{margin-top:28px;color:#6b7a8d;font-size:12px;line-height:1.7}
+a{color:#7dd3fc}
+</style></head><body><div class="wrap"><h1>Discreet Collars · 电商数据看板</h1><p class="sub">数据截至 2026-11-20（北京时间）· 更新于 2026-11-20 11:29 · 目标：日销 10 单</p><div class="nav"><a href="dashboard.html" class="on">总览</a><a href="traffic.html">流量</a><a href="products.html">产品</a><a href="content.html">内容</a></div><div class="kpis"><div class="kpi"><div class="label">今日订单</div><div class="num">0 <span class="unit">单</span></div><div class="note">收入 $0 · 7 天 0 单</div></div><div class="kpi"><div class="label">今日访客（CF 去重）</div><div class="num">438</div><div class="note">CF 今日为 UTC 日部分值</div></div><div class="kpi"><div class="label">今日人类产品页浏览</div><div class="num">28</div><div class="note">源站日志（下限，边缘缓存后）</div></div><div class="kpi"><div class="label">今日转化率</div><div class="num">0<span class="unit">%</span></div><div class="note">订单 ÷ 人类产品页浏览</div></div><div class="kpi"><div class="label">历史累计</div><div class="num">5 <span class="unit">单</span></div><div class="note">收入 $569.29 · 均单 $113.86（含测试单）</div></div></div><div class="card"><h2>目标进度 · 日销 10 单</h2><div class="progress"><i style="width:0.0%"></i></div><p class="muted" style="margin-top:10px">今日 0 / 10 单（0%）· 7 天日均 0 单 · 距上次真实订单 70 天（#8499，2026-09-11，$132.25）</p></div><div class="card"><h2>今日要点</h2><div class="alert red"><b>[GMC]</b>Merchant Center Misrepresentation 警告（2026-11-19，Merchant ID 5675110197）：免费列表与购物广告无法展示，须 king 登录 Merchant Center 看具体原因并申请复核。</div><div class="alert yellow"><b>[插件更新]</b>有 5 个插件可更新：flexible-shipping 6.13.8→6.13.9、kadence-blocks 3.9.1.1→3.9.1.2、woo-stripe-payment 4.0.20→4.0.21、woocommerce 11.3.0→11.3.1、wpforms-lite 2.0.4→2.0.5.1（2026-11-19 曾更新失败 3 个，更新前请先备份）。</div><div class="alert info"><b>[内容]</b>博客《Why Your Necklace Turns Your Neck Green — and Why It Isn&#x27;t an Allergy》已发布；Pin 已排期今日：Mirror Pendant Necklace With a Quiet Detail。</div></div><div class="card"><h2>近 7 天流量</h2><div class="bars"><div class="bar-col"><span class="bar-val">1,196</span><div class="bar" style="height:31%"></div><div class="bar hpv" style="height:2%"></div><span class="bar-date">11-14</span></div><div class="bar-col"><span class="bar-val">1,166</span><div class="bar" style="height:30%"></div><div class="bar hpv" style="height:2%"></div><span class="bar-date">11-15</span></div><div class="bar-col"><span class="bar-val">2,353</span><div class="bar" style="height:62%"></div><div class="bar hpv" style="height:2%"></div><span class="bar-date">11-16</span></div><div class="bar-col"><span class="bar-val">1,463</span><div class="bar" style="height:38%"></div><div class="bar hpv" style="height:41%"></div><span class="bar-date">11-17</span></div><div class="bar-col"><span class="bar-val">1,616</span><div class="bar" style="height:42%"></div><div class="bar hpv" style="height:22%"></div><span class="bar-date">11-18</span></div><div class="bar-col"><span class="bar-val">1,423</span><div class="bar" style="height:37%"></div><div class="bar hpv" style="height:62%"></div><span class="bar-date">11-19</span></div><div class="bar-col"><span class="bar-val">438</span><div class="bar" style="height:11%"></div><div class="bar hpv" style="height:9%"></div><span class="bar-date">11-20</span></div></div><p class="legend"><i style="background:#38bdf8"></i>访客（CF 去重）<i style="background:#a78bfa"></i>人类产品页浏览（源站日志）</p></div><div class="card"><h2>5 款主推 · 今日一览</h2><table><tr><th>产品</th><th class="num">售价</th><th class="num">库存</th><th class="num">14 天浏览</th><th class="num">今日浏览</th></tr><tr><td>Discreet Twisted Cable Chain Day Collar</td><td class="num">$89</td><td class="num">50</td><td class="num">27</td><td class="num">0</td></tr><tr><td>Discreet Braided Mesh Chain Day Collar</td><td class="num">$79</td><td class="num">50</td><td class="num">22</td><td class="num">1</td></tr><tr><td>Discreet Gold Block Bar Necklace</td><td class="num">$79</td><td class="num">50</td><td class="num">13</td><td class="num">0</td></tr><tr><td>Discreet Beaded Ball Chain Day Collar</td><td class="num">$69</td><td class="num">50</td><td class="num">21</td><td class="num">1</td></tr><tr><td>Discreet Mirror Pendant Necklace - Polished Titanium Steel on Fine Rope Chain</td><td class="num">$49</td><td class="num">50</td><td class="num">15</td><td class="num">1</td></tr></table></div><footer>数据来源：WooCommerce（SSH wp eval）、Cloudflare GraphQL、源站 Caddy 日志（主机侧分析）、内容状态记录。缺失数据标「未接入 / 待核查」，不估算、不填充。零订单日显示 0。<br>本页由每日 15:00 自动任务生成：https://wtsantt.github.io/board-dc/</footer></div></body></html>
