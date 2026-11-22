@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at": "2026-11-22 14:04",
+    "updated_at": "2026-11-22 14:59",
     "data_as_of": "2026-11-22",
     "tz": "Asia/Shanghai",
     "sources": {
       "orders": "WooCommerce（SSH wp eval，HPOS）",
       "cloudflare": "Cloudflare GraphQL（zone ad11…0515）",
-      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-18 起，8 个文件，282204 行）",
+      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-18 起，8 个文件，284999 行）",
       "content": "content-status.json（人工维护的事实记录）+ WooCommerce 博客实查"
     },
     "errors": []
@@ -18,8 +18,8 @@
     "orders_total": 5,
     "revenue_total": 569.29,
     "aov": 113.86,
-    "visitors_today": 616,
-    "human_product_views_today": 30,
+    "visitors_today": 662,
+    "human_product_views_today": 40,
     "conversion_today_pct": 0.0,
     "days_since_last_real_order": 72
   },
@@ -221,29 +221,29 @@
     },
     {
       "date": "2026-11-22",
-      "cf_requests": 27592,
-      "cf_pageviews": 7839,
-      "cf_cached": 8371,
-      "cf_uniques": 616,
+      "cf_requests": 31602,
+      "cf_pageviews": 9020,
+      "cf_cached": 9575,
+      "cf_uniques": 662,
       "log_covered": true,
       "log_partial": true,
-      "origin_total": 44030,
-      "origin_bot": 41045,
-      "origin_human": 2985,
-      "human_product_views": 30,
-      "human_unique_ips": 598,
+      "origin_total": 46825,
+      "origin_bot": 43765,
+      "origin_human": 3060,
+      "human_product_views": 40,
+      "human_unique_ips": 621,
       "partial_day": true
     }
   ],
   "traffic_sources": {
     "window": "2026-11-18 至 2026-11-22（仅日志覆盖日期内的人类产品页浏览）",
-    "total": 475,
+    "total": 485,
     "split": {
       "google": 0,
       "pinterest": 0,
       "instagram": 0,
       "direct": 241,
-      "internal": 234,
+      "internal": 244,
       "other": 0
     }
   },
@@ -260,8 +260,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-twisted-cable-chain-day-collar-gold-tone-with-polished-barrel-clasp/",
-      "views_14d": 27,
-      "views_today": 1
+      "views_14d": 28,
+      "views_today": 2
     },
     {
       "id": 8601,
@@ -275,8 +275,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-braided-mesh-chain-necklace-polished-stainless-steel-with-smooth-barrel-clasp/",
-      "views_14d": 22,
-      "views_today": 0
+      "views_14d": 23,
+      "views_today": 1
     },
     {
       "id": 8663,
@@ -290,8 +290,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-gold-block-bar-necklace-gold-tone-titanium-steel-on-fine-snake-chain-with-lobster-clasp/",
-      "views_14d": 12,
-      "views_today": 1
+      "views_14d": 13,
+      "views_today": 2
     },
     {
       "id": 8599,
@@ -305,8 +305,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-beaded-ball-chain-necklace-polished-stainless-steel-with-textured-barrel-clasp/",
-      "views_14d": 16,
-      "views_today": 2
+      "views_14d": 17,
+      "views_today": 3
     },
     {
       "id": 8592,
@@ -320,8 +320,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-mirror-pendant-necklace-polished-titanium-steel-on-fine-rope-chain/",
-      "views_14d": 15,
-      "views_today": 0
+      "views_14d": 16,
+      "views_today": 1
     },
     {
       "id": 8809,
@@ -479,7 +479,7 @@
     "homepage_heroes_found": 5,
     "homepage_error": null,
     "wp_version": "7.1.5",
-    "site_now": "2026-11-21 22:04:30",
+    "site_now": "2026-11-21 22:59:24",
     "plugin_updates": [],
     "plugin_updates_error": null
   },
