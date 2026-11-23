@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at": "2026-11-22 14:59",
-    "data_as_of": "2026-11-22",
+    "updated_at": "2026-11-23 14:59",
+    "data_as_of": "2026-11-23",
     "tz": "Asia/Shanghai",
     "sources": {
       "orders": "WooCommerce（SSH wp eval，HPOS）",
       "cloudflare": "Cloudflare GraphQL（zone ad11…0515）",
-      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-18 起，8 个文件，284999 行）",
+      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-19 起，8 个文件，288156 行）",
       "content": "content-status.json（人工维护的事实记录）+ WooCommerce 博客实查"
     },
     "errors": []
@@ -18,27 +18,12 @@
     "orders_total": 5,
     "revenue_total": 569.29,
     "aov": 113.86,
-    "visitors_today": 662,
-    "human_product_views_today": 40,
+    "visitors_today": 723,
+    "human_product_views_today": 137,
     "conversion_today_pct": 0.0,
-    "days_since_last_real_order": 72
+    "days_since_last_real_order": 73
   },
   "traffic_daily": [
-    {
-      "date": "2026-11-09",
-      "cf_requests": 97225,
-      "cf_pageviews": 10846,
-      "cf_cached": 1692,
-      "cf_uniques": 1854,
-      "log_covered": false,
-      "log_partial": true,
-      "origin_total": null,
-      "origin_bot": null,
-      "origin_human": null,
-      "human_product_views": null,
-      "human_unique_ips": null,
-      "partial_day": false
-    },
     {
       "date": "2026-11-10",
       "cf_requests": 93037,
@@ -165,13 +150,13 @@
       "cf_pageviews": 30040,
       "cf_cached": 29556,
       "cf_uniques": 1616,
-      "log_covered": true,
+      "log_covered": false,
       "log_partial": true,
-      "origin_total": 3993,
-      "origin_bot": 3829,
-      "origin_human": 164,
-      "human_product_views": 0,
-      "human_unique_ips": 24,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
       "partial_day": false
     },
     {
@@ -181,12 +166,12 @@
       "cf_cached": 31484,
       "cf_uniques": 1423,
       "log_covered": true,
-      "log_partial": false,
-      "origin_total": 76031,
-      "origin_bot": 72000,
-      "origin_human": 4031,
-      "human_product_views": 192,
-      "human_unique_ips": 762,
+      "log_partial": true,
+      "origin_total": 1364,
+      "origin_bot": 1351,
+      "origin_human": 13,
+      "human_product_views": 0,
+      "human_unique_ips": 10,
       "partial_day": false
     },
     {
@@ -221,30 +206,45 @@
     },
     {
       "date": "2026-11-22",
-      "cf_requests": 31602,
-      "cf_pageviews": 9020,
-      "cf_cached": 9575,
-      "cf_uniques": 662,
+      "cf_requests": 112763,
+      "cf_pageviews": 32495,
+      "cf_cached": 33556,
+      "cf_uniques": 2098,
+      "log_covered": true,
+      "log_partial": false,
+      "origin_total": 76829,
+      "origin_bot": 71088,
+      "origin_human": 5741,
+      "human_product_views": 97,
+      "human_unique_ips": 925,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-23",
+      "cf_requests": 34349,
+      "cf_pageviews": 9715,
+      "cf_cached": 9448,
+      "cf_uniques": 723,
       "log_covered": true,
       "log_partial": true,
-      "origin_total": 46825,
-      "origin_bot": 43765,
-      "origin_human": 3060,
-      "human_product_views": 40,
-      "human_unique_ips": 621,
+      "origin_total": 51813,
+      "origin_bot": 45911,
+      "origin_human": 5902,
+      "human_product_views": 137,
+      "human_unique_ips": 838,
       "partial_day": true
     }
   ],
   "traffic_sources": {
-    "window": "2026-11-18 至 2026-11-22（仅日志覆盖日期内的人类产品页浏览）",
-    "total": 485,
+    "window": "2026-11-19 至 2026-11-23（仅日志覆盖日期内的人类产品页浏览）",
+    "total": 487,
     "split": {
       "google": 0,
       "pinterest": 0,
       "instagram": 0,
-      "direct": 241,
-      "internal": 244,
-      "other": 0
+      "direct": 164,
+      "internal": 322,
+      "other": 1
     }
   },
   "products": [
@@ -260,8 +260,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-twisted-cable-chain-day-collar-gold-tone-with-polished-barrel-clasp/",
-      "views_14d": 28,
-      "views_today": 2
+      "views_14d": 17,
+      "views_today": 6
     },
     {
       "id": 8601,
@@ -275,8 +275,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-braided-mesh-chain-necklace-polished-stainless-steel-with-smooth-barrel-clasp/",
-      "views_14d": 23,
-      "views_today": 1
+      "views_14d": 25,
+      "views_today": 8
     },
     {
       "id": 8663,
@@ -291,7 +291,7 @@
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-gold-block-bar-necklace-gold-tone-titanium-steel-on-fine-snake-chain-with-lobster-clasp/",
       "views_14d": 13,
-      "views_today": 2
+      "views_today": 4
     },
     {
       "id": 8599,
@@ -305,8 +305,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-beaded-ball-chain-necklace-polished-stainless-steel-with-textured-barrel-clasp/",
-      "views_14d": 17,
-      "views_today": 3
+      "views_14d": 19,
+      "views_today": 7
     },
     {
       "id": 8592,
@@ -320,8 +320,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-mirror-pendant-necklace-polished-titanium-steel-on-fine-rope-chain/",
-      "views_14d": 16,
-      "views_today": 1
+      "views_14d": 15,
+      "views_today": 4
     },
     {
       "id": 8809,
@@ -335,8 +335,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/polished-silver-double-layer-openwork-bangle/",
-      "views_14d": 4,
-      "views_today": 0
+      "views_14d": 7,
+      "views_today": 4
     },
     {
       "id": 8810,
@@ -350,17 +350,17 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/brushed-silver-star-cutout-bangle/",
-      "views_14d": 3,
-      "views_today": 0
+      "views_14d": 7,
+      "views_today": 4
     }
   ],
   "content": {
     "blog_last": {
-      "id": 8824,
-      "title": "Friendsgiving Jewelry: The One Gathering Where Looking Polished Reads as Confidence, Not Trying Too Hard",
-      "date": "2026-11-21 18:15:52",
-      "url": "https://discreetcollars.com/friendsgiving-jewelry-confidence-not-trying-too-hard/",
-      "date_cst": "2026-11-22 10:15:52"
+      "id": 8839,
+      "title": "The Heirloom Look, Without the Heirloom: How to Wear Vintage-Inspired Jewelry Every Day",
+      "date": "2026-11-22 18:17:13",
+      "url": "https://discreetcollars.com/heirloom-look-without-the-heirloom/",
+      "date_cst": "2026-11-23 10:17:13"
     },
     "blog_7d": 5,
     "blog_next": "明日 10:10",
@@ -404,6 +404,14 @@
         "pin_url": "https://www.pinterest.com/pin/1125970344378373842/",
         "sku": 8599,
         "title": "Pin 07 · 尺码指南（Beaded Ball Chain Necklace — How It Fits (40–45 cm)）"
+      },
+      {
+        "board": "Everyday Silver",
+        "date": "2026-11-23",
+        "file": "dc-8809-r1.jpg",
+        "sku": 8809,
+        "title": "Polished Silver Double-Layer Openwork Bangle",
+        "pin_url": "https://www.pinterest.com/pin/1125970344378539768/"
       }
     ],
     "pins_scheduled": [
@@ -413,13 +421,6 @@
         "file": "pin-08-final.jpg",
         "sku": 8599,
         "title": "Pin 08 · Beaded Ball Chain Necklace"
-      },
-      {
-        "board": "Everyday Silver",
-        "date": "2026-11-23",
-        "file": "dc-8809-r1.jpg",
-        "sku": 8809,
-        "title": "Polished Silver Double-Layer Openwork Bangle"
       },
       {
         "board": "Everyday Silver",
@@ -450,21 +451,13 @@
         "title": "Mirror Pendant Necklace in a Real Flat Lay"
       }
     ],
-    "pins_today": [
-      {
-        "board": "Discreet Day Collars",
-        "date": "2026-11-22",
-        "file": "pin-08-final.jpg",
-        "sku": 8599,
-        "title": "Pin 08 · Beaded Ball Chain Necklace"
-      }
-    ],
+    "pins_today": [],
     "next_pin": {
-      "board": "Discreet Day Collars",
-      "date": "2026-11-22",
-      "file": "pin-08-final.jpg",
-      "sku": 8599,
-      "title": "Pin 08 · Beaded Ball Chain Necklace"
+      "board": "Everyday Silver",
+      "date": "2026-11-24",
+      "file": "dc-8810-r1.jpg",
+      "sku": 8810,
+      "title": "Brushed Silver Star Cutout Bangle"
     },
     "ig_last": {
       "date": "2026-11-19",
@@ -479,7 +472,7 @@
     "homepage_heroes_found": 5,
     "homepage_error": null,
     "wp_version": "7.1.5",
-    "site_now": "2026-11-21 22:59:24",
+    "site_now": "2026-11-22 22:59:31",
     "plugin_updates": [],
     "plugin_updates_error": null
   },
@@ -515,7 +508,7 @@
       "payment": "stripe_cc",
       "date_cst": "2026-09-11 07:43:14"
     },
-    "days_since_last_real_order": 72
+    "days_since_last_real_order": 73
   },
   "alerts": [
     {
@@ -526,12 +519,12 @@
     {
       "level": "info",
       "tag": "内容",
-      "text": "博客《Friendsgiving Jewelry: The One Gathering Where Looking Polished Reads as Confidence, Not Trying Too Hard》已发布；Pin 已排期今日：Pin 08 · Beaded Ball Chain Necklace。"
+      "text": "博客《The Heirloom Look, Without the Heirloom: How to Wear Vintage-Inspired Jewelry Every Day》已发布。"
     }
   ],
   "notes": [
     "2026-11-17 起 Cloudflare 边缘缓存上线：源站日志只记录未命中缓存的请求，人类产品页浏览为下限，低于真实值。",
-    "源站日志只保留约 2026-11-18 起（旧日志已轮转），此前的人类浏览数无记录。",
+    "源站日志只保留约 2026-11-19 起（旧日志已轮转），此前的人类浏览数无记录。",
     "Cloudflare 今日数据为当日部分值（按 UTC 日统计，到采集时刻）。",
     "订单与博客时间为站内时区（UTC-8）换算为北京时间后统计；站内原记录如 #8499 为 2026-09-10。",
     "加购/结账数未接入：站上无事件追踪，只有订单数是实的。"
