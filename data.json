@@ -1,13 +1,16 @@
 {
   "meta": {
-    "updated_at": "2026-11-24 11:02",
+    "updated_at": "2026-11-24 14:41",
     "data_as_of": "2026-11-24",
     "tz": "Asia/Shanghai",
     "sources": {
       "orders": "WooCommerce（SSH wp eval，HPOS）",
       "cloudflare": "Cloudflare GraphQL（zone ad11…0515）",
-      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-20 起，8 个文件，278141 行）",
-      "content": "content-status.json（人工维护的事实记录）+ WooCommerce 博客实查"
+      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-20 起，8 个文件，290994 行）",
+      "content": "content-status.json（人工维护的事实记录）+ WooCommerce 博客实查",
+      "ga4": "GA4 Data API（服务账号只读，Property 510245928）",
+      "gsc": "Search Console API（服务账号只读）",
+      "gmc": "Merchant API（服务账号只读，Merchant ID 5675110197）"
     },
     "errors": []
   },
@@ -18,8 +21,8 @@
     "orders_total": 5,
     "revenue_total": 569.29,
     "aov": 113.86,
-    "visitors_today": 259,
-    "human_product_views_today": 39,
+    "visitors_today": 516,
+    "human_product_views_today": 47,
     "conversion_today_pct": 0.0,
     "days_since_last_real_order": 74
   },
@@ -221,29 +224,29 @@
     },
     {
       "date": "2026-11-24",
-      "cf_requests": 13995,
-      "cf_pageviews": 4048,
-      "cf_cached": 3944,
-      "cf_uniques": 259,
+      "cf_requests": 32261,
+      "cf_pageviews": 8995,
+      "cf_cached": 9305,
+      "cf_uniques": 516,
       "log_covered": true,
       "log_partial": true,
-      "origin_total": 37533,
-      "origin_bot": 34291,
-      "origin_human": 3242,
-      "human_product_views": 39,
-      "human_unique_ips": 555,
+      "origin_total": 50386,
+      "origin_bot": 45836,
+      "origin_human": 4550,
+      "human_product_views": 47,
+      "human_unique_ips": 691,
       "partial_day": true
     }
   ],
   "traffic_sources": {
     "window": "2026-11-20 至 2026-11-24（仅日志覆盖日期内的人类产品页浏览）",
-    "total": 442,
+    "total": 450,
     "split": {
       "google": 0,
       "pinterest": 0,
       "instagram": 0,
-      "direct": 196,
-      "internal": 245,
+      "direct": 202,
+      "internal": 247,
       "other": 1
     }
   },
@@ -260,8 +263,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-twisted-cable-chain-day-collar-gold-tone-with-polished-barrel-clasp/",
-      "views_14d": 15,
-      "views_today": 0
+      "views_14d": 17,
+      "views_today": 2
     },
     {
       "id": 8601,
@@ -412,23 +415,25 @@
         "sku": 8809,
         "title": "Polished Silver Double-Layer Openwork Bangle",
         "pin_url": "https://www.pinterest.com/pin/1125970344378539768/"
-      }
-    ],
-    "pins_scheduled": [
+      },
       {
         "board": "Discreet Day Collars",
         "date": "2026-11-22",
         "file": "pin-08-final.jpg",
         "sku": 8599,
-        "title": "Pin 08 · Beaded Ball Chain Necklace"
+        "title": "Pin 08 · Beaded Ball Chain Necklace",
+        "pin_url": "https://www.pinterest.com/pin/1125970344378455963/"
       },
       {
         "board": "Everyday Silver",
         "date": "2026-11-24",
         "file": "dc-8810-r1.jpg",
         "sku": 8810,
-        "title": "Brushed Silver Star Cutout Bangle"
-      },
+        "title": "Brushed Silver Star Cutout Bangle",
+        "pin_url": "https://www.pinterest.com/pin/1125970344378614292/"
+      }
+    ],
+    "pins_scheduled": [
       {
         "board": "Discreet Day Collars",
         "date": "2026-11-25",
@@ -451,21 +456,13 @@
         "title": "Mirror Pendant Necklace in a Real Flat Lay"
       }
     ],
-    "pins_today": [
-      {
-        "board": "Everyday Silver",
-        "date": "2026-11-24",
-        "file": "dc-8810-r1.jpg",
-        "sku": 8810,
-        "title": "Brushed Silver Star Cutout Bangle"
-      }
-    ],
+    "pins_today": [],
     "next_pin": {
-      "board": "Everyday Silver",
-      "date": "2026-11-24",
-      "file": "dc-8810-r1.jpg",
-      "sku": 8810,
-      "title": "Brushed Silver Star Cutout Bangle"
+      "board": "Discreet Day Collars",
+      "date": "2026-11-25",
+      "file": "dc-8663-r2.jpg",
+      "sku": 8663,
+      "title": "Gold Block Bar Necklace, Up Close"
     },
     "ig_last": {
       "date": "2026-11-19",
@@ -480,26 +477,311 @@
     "homepage_heroes_found": 5,
     "homepage_error": null,
     "wp_version": "7.1.5",
-    "site_now": "2026-11-23 19:02:17",
+    "site_now": "2026-11-23 22:41:15",
     "plugin_updates": [],
     "plugin_updates_error": null
   },
   "integrations": {
     "gmc": {
-      "status": "待核查",
-      "reason": "2026-11-19 Merchant Center 发来 Misrepresentation 警告（Merchant ID 5675110197），免费列表/购物广告无法展示；须 king 登录 Merchant Center 看具体原因并申请复核；GMC 登录被 Google 两步验证挡住。"
+      "status": "已接入（只读）",
+      "reason": "14 款商品免费列表全部未批准（Misrepresentation 警告）；复核待 king 完成身份验证后提交。"
     },
     "gsc": {
-      "status": "未接入",
-      "reason": "Search Console 登录被 Google 两步验证挡住；8599/8592 索引请求与 /items/ 前缀移除待 king 发验证码。"
+      "status": "已接入（只读）",
+      "reason": "近 28 天点击 8、曝光 129、平均排名 26.7（数据截至 2026-11-21，约滞后 2 天）。"
     },
     "ga4": {
-      "status": "未接入",
-      "reason": "GA4（G-YSHC1H91WK）数据拉取被 Google 两步验证挡住，无法自动读取。"
+      "status": "已接入（只读）",
+      "reason": "GA4（G-YSHC1H91WK）：近 14 天会话 37、用户 26；近 7 天会话 11。"
     },
     "funnel": {
-      "status": "未接入",
-      "reason": "站上无加购/结账事件追踪，加购数与结账数无法统计；只有订单数是实的。"
+      "status": "部分接入（GA4 事件）",
+      "reason": "近 14 天 GA4 事件：浏览商品 17 → 加购 3 → 开始结账 4 → 购买 1（站内无自有埋点，以 GA4 事件为准）。"
+    }
+  },
+  "google": {
+    "ga4": {
+      "status": "ok",
+      "error": null,
+      "window_14d": {
+        "start": "2026-11-10",
+        "end": "2026-11-23",
+        "sessions": 37,
+        "users": 26,
+        "pageviews": 85
+      },
+      "window_7d": {
+        "start": "2026-11-17",
+        "end": "2026-11-23",
+        "sessions": 11,
+        "users": 8,
+        "pageviews": 13
+      },
+      "events_14d": {
+        "view_item": 17,
+        "add_to_cart": 3,
+        "begin_checkout": 4,
+        "purchase": 1
+      },
+      "channels_14d": [
+        {
+          "channel": "Direct",
+          "sessions": 20
+        },
+        {
+          "channel": "Organic Search",
+          "sessions": 9
+        },
+        {
+          "channel": "AI Assistant",
+          "sessions": 4
+        },
+        {
+          "channel": "Organic Social",
+          "sessions": 2
+        },
+        {
+          "channel": "Unassigned",
+          "sessions": 2
+        }
+      ]
+    },
+    "gsc": {
+      "status": "ok",
+      "error": null,
+      "window_28d": {
+        "start": "2026-10-27",
+        "end": "2026-11-23",
+        "clicks": 8,
+        "impressions": 129,
+        "ctr": 6.2,
+        "position": 26.7
+      },
+      "window_7d": {
+        "start": "2026-11-17",
+        "end": "2026-11-23",
+        "clicks": 1,
+        "impressions": 37,
+        "ctr": 2.7,
+        "position": 15.2
+      },
+      "data_through": "2026-11-21",
+      "top_queries": [
+        {
+          "query": "discreet day collar",
+          "clicks": 2,
+          "impressions": 12,
+          "position": 23.8
+        },
+        {
+          "query": "collar girth",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 47
+        },
+        {
+          "query": "collar measurement female",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 78
+        },
+        {
+          "query": "day collar",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 8
+        },
+        {
+          "query": "day collar for men",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        },
+        {
+          "query": "day collar meaning",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 31
+        },
+        {
+          "query": "day collars",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 17
+        },
+        {
+          "query": "day collars for men",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 3
+        },
+        {
+          "query": "days collar meaning",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 19.7
+        },
+        {
+          "query": "discreet collar",
+          "clicks": 0,
+          "impressions": 2,
+          "position": 26.5
+        }
+      ],
+      "top_pages": [
+        {
+          "page": "https://discreetcollars.com/",
+          "clicks": 6,
+          "impressions": 36,
+          "position": 19.5
+        },
+        {
+          "page": "https://discreetcollars.com/day-collars-discretion-trust-research-guide/",
+          "clicks": 1,
+          "impressions": 16,
+          "position": 27.1
+        },
+        {
+          "page": "https://discreetcollars.com/how-to-measure-neck-for-day-collar-fit/",
+          "clicks": 1,
+          "impressions": 10,
+          "position": 17.8
+        },
+        {
+          "page": "https://discreetcollars.com/about-us/",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 5
+        },
+        {
+          "page": "https://discreetcollars.com/blog/",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 3
+        },
+        {
+          "page": "https://discreetcollars.com/consent-symbolic-day-collars-design-feature/",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 9
+        },
+        {
+          "page": "https://discreetcollars.com/day-collar-for-men/",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 7.7
+        },
+        {
+          "page": "https://discreetcollars.com/day-collar-meaning-privacy-context/",
+          "clicks": 0,
+          "impressions": 15,
+          "position": 41.6
+        },
+        {
+          "page": "https://discreetcollars.com/discreet-collar-necklace/",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 5.7
+        },
+        {
+          "page": "https://discreetcollars.com/faq/",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 5.2
+        }
+      ]
+    },
+    "gmc": {
+      "status": "ok",
+      "error": null,
+      "total": 14,
+      "free_approved": 0,
+      "products": [
+        {
+          "offerId": "8720",
+          "title": "accounts/5675110197/products/en~US~8720",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8757",
+          "title": "accounts/5675110197/products/en~US~8757",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8739",
+          "title": "accounts/5675110197/products/en~US~8739",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8745",
+          "title": "accounts/5675110197/products/en~US~8745",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8728",
+          "title": "accounts/5675110197/products/en~US~8728",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8708",
+          "title": "accounts/5675110197/products/en~US~8708",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8599",
+          "title": "accounts/5675110197/products/en~US~8599",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8605",
+          "title": "accounts/5675110197/products/en~US~8605",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8751",
+          "title": "accounts/5675110197/products/en~US~8751",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8663",
+          "title": "accounts/5675110197/products/en~US~8663",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8592",
+          "title": "accounts/5675110197/products/en~US~8592",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8714",
+          "title": "accounts/5675110197/products/en~US~8714",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8601",
+          "title": "accounts/5675110197/products/en~US~8601",
+          "free_approved": false,
+          "issues": []
+        },
+        {
+          "offerId": "8733",
+          "title": "accounts/5675110197/products/en~US~8733",
+          "free_approved": false,
+          "issues": []
+        }
+      ]
     }
   },
   "goal_progress": {
@@ -527,7 +809,7 @@
     {
       "level": "info",
       "tag": "内容",
-      "text": "博客《Black Friday Jewelry Shopping List: Check the Hardware First, Then the Discount》已发布；Pin 已排期今日：Brushed Silver Star Cutout Bangle。"
+      "text": "博客《Black Friday Jewelry Shopping List: Check the Hardware First, Then the Discount》已发布。"
     }
   ],
   "notes": [
@@ -535,6 +817,8 @@
     "源站日志只保留约 2026-11-20 起（旧日志已轮转），此前的人类浏览数无记录。",
     "Cloudflare 今日数据为当日部分值（按 UTC 日统计，到采集时刻）。",
     "订单与博客时间为站内时区（UTC-8）换算为北京时间后统计；站内原记录如 #8499 为 2026-09-10。",
-    "加购/结账数未接入：站上无事件追踪，只有订单数是实的。"
+    "加购/结账数来自 GA4 事件（近 14 天），站内无自有埋点；购买事件数与订单数口径不同，以订单为准。",
+    "GA4 会话为真实人类会话，与 Cloudflare 去重访客（含爬虫）口径不同，两处数字对不上是正常的。",
+    "GSC 数据约滞后 2 天（本次截至 2026-11-21）；GMC 商品状态为拉取时刻快照，警告未解除前商品仍不展示。"
   ]
 }
