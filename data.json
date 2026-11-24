@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at": "2026-11-24 14:45",
+    "updated_at": "2026-11-24 14:59",
     "data_as_of": "2026-11-24",
     "tz": "Asia/Shanghai",
     "sources": {
       "orders": "WooCommerce（SSH wp eval，HPOS）",
       "cloudflare": "Cloudflare GraphQL（zone ad11…0515）",
-      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-20 起，8 个文件，291248 行）",
+      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-20 起，8 个文件，292235 行）",
       "content": "content-status.json（人工维护的事实记录）+ WooCommerce 博客实查",
       "ga4": "GA4 Data API（服务账号只读，Property 510245928）",
       "gsc": "Search Console API（服务账号只读）",
@@ -21,8 +21,8 @@
     "orders_total": 5,
     "revenue_total": 569.29,
     "aov": 113.86,
-    "visitors_today": 520,
-    "human_product_views_today": 47,
+    "visitors_today": 536,
+    "human_product_views_today": 48,
     "conversion_today_pct": 0.0,
     "days_since_last_real_order": 74
   },
@@ -224,28 +224,28 @@
     },
     {
       "date": "2026-11-24",
-      "cf_requests": 32611,
-      "cf_pageviews": 9100,
-      "cf_cached": 9407,
-      "cf_uniques": 520,
+      "cf_requests": 33634,
+      "cf_pageviews": 9356,
+      "cf_cached": 9663,
+      "cf_uniques": 536,
       "log_covered": true,
       "log_partial": true,
-      "origin_total": 50640,
-      "origin_bot": 46083,
-      "origin_human": 4557,
-      "human_product_views": 47,
-      "human_unique_ips": 697,
+      "origin_total": 51627,
+      "origin_bot": 46782,
+      "origin_human": 4845,
+      "human_product_views": 48,
+      "human_unique_ips": 713,
       "partial_day": true
     }
   ],
   "traffic_sources": {
     "window": "2026-11-20 至 2026-11-24（仅日志覆盖日期内的人类产品页浏览）",
-    "total": 450,
+    "total": 451,
     "split": {
       "google": 0,
       "pinterest": 0,
       "instagram": 0,
-      "direct": 202,
+      "direct": 203,
       "internal": 247,
       "other": 1
     }
@@ -263,8 +263,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-twisted-cable-chain-day-collar-gold-tone-with-polished-barrel-clasp/",
-      "views_14d": 17,
-      "views_today": 2
+      "views_14d": 18,
+      "views_today": 3
     },
     {
       "id": 8601,
@@ -477,7 +477,7 @@
     "homepage_heroes_found": 5,
     "homepage_error": null,
     "wp_version": "7.1.5",
-    "site_now": "2026-11-23 22:46:07",
+    "site_now": "2026-11-23 22:59:27",
     "plugin_updates": [],
     "plugin_updates_error": null
   },
