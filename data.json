@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at": "2026-11-24 14:41",
+    "updated_at": "2026-11-24 14:45",
     "data_as_of": "2026-11-24",
     "tz": "Asia/Shanghai",
     "sources": {
       "orders": "WooCommerce（SSH wp eval，HPOS）",
       "cloudflare": "Cloudflare GraphQL（zone ad11…0515）",
-      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-20 起，8 个文件，290994 行）",
+      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-20 起，8 个文件，291248 行）",
       "content": "content-status.json（人工维护的事实记录）+ WooCommerce 博客实查",
       "ga4": "GA4 Data API（服务账号只读，Property 510245928）",
       "gsc": "Search Console API（服务账号只读）",
@@ -21,7 +21,7 @@
     "orders_total": 5,
     "revenue_total": 569.29,
     "aov": 113.86,
-    "visitors_today": 516,
+    "visitors_today": 520,
     "human_product_views_today": 47,
     "conversion_today_pct": 0.0,
     "days_since_last_real_order": 74
@@ -224,17 +224,17 @@
     },
     {
       "date": "2026-11-24",
-      "cf_requests": 32261,
-      "cf_pageviews": 8995,
-      "cf_cached": 9305,
-      "cf_uniques": 516,
+      "cf_requests": 32611,
+      "cf_pageviews": 9100,
+      "cf_cached": 9407,
+      "cf_uniques": 520,
       "log_covered": true,
       "log_partial": true,
-      "origin_total": 50386,
-      "origin_bot": 45836,
-      "origin_human": 4550,
+      "origin_total": 50640,
+      "origin_bot": 46083,
+      "origin_human": 4557,
       "human_product_views": 47,
-      "human_unique_ips": 691,
+      "human_unique_ips": 697,
       "partial_day": true
     }
   ],
@@ -477,7 +477,7 @@
     "homepage_heroes_found": 5,
     "homepage_error": null,
     "wp_version": "7.1.5",
-    "site_now": "2026-11-23 22:41:15",
+    "site_now": "2026-11-23 22:46:07",
     "plugin_updates": [],
     "plugin_updates_error": null
   },
@@ -804,7 +804,7 @@
     {
       "level": "red",
       "tag": "GMC",
-      "text": "Merchant Center Misrepresentation 警告（2026-11-19，Merchant ID 5675110197）：免费列表与购物广告无法展示，须 king 登录 Merchant Center 看具体原因并申请复核。"
+      "text": "Merchant Center Misrepresentation 警告（2026-11-19，Merchant ID 5675110197）：免费列表与购物广告无法展示；根因已修（387 个幽灵商品已删、商家信息已补），14 款仍全部未批准；复核只差 king 做身份验证（手机自拍视频最快），验证完即可提交复核。"
     },
     {
       "level": "info",
