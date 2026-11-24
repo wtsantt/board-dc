@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at": "2026-11-23 14:59",
-    "data_as_of": "2026-11-23",
+    "updated_at": "2026-11-24 11:02",
+    "data_as_of": "2026-11-24",
     "tz": "Asia/Shanghai",
     "sources": {
       "orders": "WooCommerce（SSH wp eval，HPOS）",
       "cloudflare": "Cloudflare GraphQL（zone ad11…0515）",
-      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-19 起，8 个文件，288156 行）",
+      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-20 起，8 个文件，278141 行）",
       "content": "content-status.json（人工维护的事实记录）+ WooCommerce 博客实查"
     },
     "errors": []
@@ -18,27 +18,12 @@
     "orders_total": 5,
     "revenue_total": 569.29,
     "aov": 113.86,
-    "visitors_today": 723,
-    "human_product_views_today": 137,
+    "visitors_today": 259,
+    "human_product_views_today": 39,
     "conversion_today_pct": 0.0,
-    "days_since_last_real_order": 73
+    "days_since_last_real_order": 74
   },
   "traffic_daily": [
-    {
-      "date": "2026-11-10",
-      "cf_requests": 93037,
-      "cf_pageviews": 1300,
-      "cf_cached": 1891,
-      "cf_uniques": 953,
-      "log_covered": false,
-      "log_partial": true,
-      "origin_total": null,
-      "origin_bot": null,
-      "origin_human": null,
-      "human_product_views": null,
-      "human_unique_ips": null,
-      "partial_day": false
-    },
     {
       "date": "2026-11-11",
       "cf_requests": 96753,
@@ -165,13 +150,13 @@
       "cf_pageviews": 31789,
       "cf_cached": 31484,
       "cf_uniques": 1423,
-      "log_covered": true,
+      "log_covered": false,
       "log_partial": true,
-      "origin_total": 1364,
-      "origin_bot": 1351,
-      "origin_human": 13,
-      "human_product_views": 0,
-      "human_unique_ips": 10,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
       "partial_day": false
     },
     {
@@ -181,12 +166,12 @@
       "cf_cached": 30816,
       "cf_uniques": 1949,
       "log_covered": true,
-      "log_partial": false,
-      "origin_total": 77219,
-      "origin_bot": 72295,
-      "origin_human": 4924,
-      "human_product_views": 122,
-      "human_unique_ips": 946,
+      "log_partial": true,
+      "origin_total": 239,
+      "origin_bot": 237,
+      "origin_human": 2,
+      "human_product_views": 0,
+      "human_unique_ips": 2,
       "partial_day": false
     },
     {
@@ -221,29 +206,44 @@
     },
     {
       "date": "2026-11-23",
-      "cf_requests": 34349,
-      "cf_pageviews": 9715,
-      "cf_cached": 9448,
-      "cf_uniques": 723,
+      "cf_requests": 115793,
+      "cf_pageviews": 32607,
+      "cf_cached": 31685,
+      "cf_uniques": 1964,
+      "log_covered": true,
+      "log_partial": false,
+      "origin_total": 82609,
+      "origin_bot": 75183,
+      "origin_human": 7426,
+      "human_product_views": 175,
+      "human_unique_ips": 1145,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-24",
+      "cf_requests": 13995,
+      "cf_pageviews": 4048,
+      "cf_cached": 3944,
+      "cf_uniques": 259,
       "log_covered": true,
       "log_partial": true,
-      "origin_total": 51813,
-      "origin_bot": 45911,
-      "origin_human": 5902,
-      "human_product_views": 137,
-      "human_unique_ips": 838,
+      "origin_total": 37533,
+      "origin_bot": 34291,
+      "origin_human": 3242,
+      "human_product_views": 39,
+      "human_unique_ips": 555,
       "partial_day": true
     }
   ],
   "traffic_sources": {
-    "window": "2026-11-19 至 2026-11-23（仅日志覆盖日期内的人类产品页浏览）",
-    "total": 487,
+    "window": "2026-11-20 至 2026-11-24（仅日志覆盖日期内的人类产品页浏览）",
+    "total": 442,
     "split": {
       "google": 0,
       "pinterest": 0,
       "instagram": 0,
-      "direct": 164,
-      "internal": 322,
+      "direct": 196,
+      "internal": 245,
       "other": 1
     }
   },
@@ -260,8 +260,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-twisted-cable-chain-day-collar-gold-tone-with-polished-barrel-clasp/",
-      "views_14d": 17,
-      "views_today": 6
+      "views_14d": 15,
+      "views_today": 0
     },
     {
       "id": 8601,
@@ -275,8 +275,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-braided-mesh-chain-necklace-polished-stainless-steel-with-smooth-barrel-clasp/",
-      "views_14d": 25,
-      "views_today": 8
+      "views_14d": 21,
+      "views_today": 0
     },
     {
       "id": 8663,
@@ -290,8 +290,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-gold-block-bar-necklace-gold-tone-titanium-steel-on-fine-snake-chain-with-lobster-clasp/",
-      "views_14d": 13,
-      "views_today": 4
+      "views_14d": 14,
+      "views_today": 0
     },
     {
       "id": 8599,
@@ -305,8 +305,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-beaded-ball-chain-necklace-polished-stainless-steel-with-textured-barrel-clasp/",
-      "views_14d": 19,
-      "views_today": 7
+      "views_14d": 18,
+      "views_today": 0
     },
     {
       "id": 8592,
@@ -320,8 +320,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-mirror-pendant-necklace-polished-titanium-steel-on-fine-rope-chain/",
-      "views_14d": 15,
-      "views_today": 4
+      "views_14d": 14,
+      "views_today": 0
     },
     {
       "id": 8809,
@@ -335,8 +335,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/polished-silver-double-layer-openwork-bangle/",
-      "views_14d": 7,
-      "views_today": 4
+      "views_14d": 6,
+      "views_today": 0
     },
     {
       "id": 8810,
@@ -350,17 +350,17 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/brushed-silver-star-cutout-bangle/",
-      "views_14d": 7,
-      "views_today": 4
+      "views_14d": 5,
+      "views_today": 0
     }
   ],
   "content": {
     "blog_last": {
-      "id": 8839,
-      "title": "The Heirloom Look, Without the Heirloom: How to Wear Vintage-Inspired Jewelry Every Day",
-      "date": "2026-11-22 18:17:13",
-      "url": "https://discreetcollars.com/heirloom-look-without-the-heirloom/",
-      "date_cst": "2026-11-23 10:17:13"
+      "id": 8854,
+      "title": "Black Friday Jewelry Shopping List: Check the Hardware First, Then the Discount",
+      "date": "2026-11-23 16:21:20",
+      "url": "https://discreetcollars.com/black-friday-jewelry-shopping-list-check-hardware-first/",
+      "date_cst": "2026-11-24 08:21:20"
     },
     "blog_7d": 5,
     "blog_next": "明日 10:10",
@@ -451,7 +451,15 @@
         "title": "Mirror Pendant Necklace in a Real Flat Lay"
       }
     ],
-    "pins_today": [],
+    "pins_today": [
+      {
+        "board": "Everyday Silver",
+        "date": "2026-11-24",
+        "file": "dc-8810-r1.jpg",
+        "sku": 8810,
+        "title": "Brushed Silver Star Cutout Bangle"
+      }
+    ],
     "next_pin": {
       "board": "Everyday Silver",
       "date": "2026-11-24",
@@ -472,7 +480,7 @@
     "homepage_heroes_found": 5,
     "homepage_error": null,
     "wp_version": "7.1.5",
-    "site_now": "2026-11-22 22:59:31",
+    "site_now": "2026-11-23 19:02:17",
     "plugin_updates": [],
     "plugin_updates_error": null
   },
@@ -508,7 +516,7 @@
       "payment": "stripe_cc",
       "date_cst": "2026-09-11 07:43:14"
     },
-    "days_since_last_real_order": 73
+    "days_since_last_real_order": 74
   },
   "alerts": [
     {
@@ -519,12 +527,12 @@
     {
       "level": "info",
       "tag": "内容",
-      "text": "博客《The Heirloom Look, Without the Heirloom: How to Wear Vintage-Inspired Jewelry Every Day》已发布。"
+      "text": "博客《Black Friday Jewelry Shopping List: Check the Hardware First, Then the Discount》已发布；Pin 已排期今日：Brushed Silver Star Cutout Bangle。"
     }
   ],
   "notes": [
     "2026-11-17 起 Cloudflare 边缘缓存上线：源站日志只记录未命中缓存的请求，人类产品页浏览为下限，低于真实值。",
-    "源站日志只保留约 2026-11-19 起（旧日志已轮转），此前的人类浏览数无记录。",
+    "源站日志只保留约 2026-11-20 起（旧日志已轮转），此前的人类浏览数无记录。",
     "Cloudflare 今日数据为当日部分值（按 UTC 日统计，到采集时刻）。",
     "订单与博客时间为站内时区（UTC-8）换算为北京时间后统计；站内原记录如 #8499 为 2026-09-10。",
     "加购/结账数未接入：站上无事件追踪，只有订单数是实的。"
