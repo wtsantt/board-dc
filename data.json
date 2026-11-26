@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated_at": "2026-11-25 14:59",
-    "data_as_of": "2026-11-25",
+    "updated_at": "2026-11-26 15:06",
+    "data_as_of": "2026-11-26",
     "tz": "Asia/Shanghai",
     "sources": {
       "orders": "WooCommerce（SSH wp eval，HPOS）",
       "cloudflare": "Cloudflare GraphQL（zone ad11…0515）",
-      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-21 起，8 个文件，298051 行）",
+      "origin_logs": "源站 Caddy 日志（主机侧分析，2026-11-22 起，8 个文件，292976 行）",
       "content": "content-status.json（人工维护的事实记录）+ WooCommerce 博客实查",
       "ga4": "GA4 Data API（服务账号只读，Property 510245928）",
       "gsc": "Search Console API（服务账号只读）",
@@ -21,27 +21,12 @@
     "orders_total": 5,
     "revenue_total": 569.29,
     "aov": 113.86,
-    "visitors_today": 562,
-    "human_product_views_today": 38,
+    "visitors_today": 587,
+    "human_product_views_today": 28,
     "conversion_today_pct": 0.0,
-    "days_since_last_real_order": 75
+    "days_since_last_real_order": 76
   },
   "traffic_daily": [
-    {
-      "date": "2026-11-12",
-      "cf_requests": 100698,
-      "cf_pageviews": 18298,
-      "cf_cached": 1491,
-      "cf_uniques": 1446,
-      "log_covered": false,
-      "log_partial": true,
-      "origin_total": null,
-      "origin_bot": null,
-      "origin_human": null,
-      "human_product_views": null,
-      "human_unique_ips": null,
-      "partial_day": false
-    },
     {
       "date": "2026-11-13",
       "cf_requests": 117387,
@@ -168,13 +153,13 @@
       "cf_pageviews": 31570,
       "cf_cached": 32162,
       "cf_uniques": 1901,
-      "log_covered": true,
+      "log_covered": false,
       "log_partial": true,
-      "origin_total": 2533,
-      "origin_bot": 2494,
-      "origin_human": 39,
-      "human_product_views": 1,
-      "human_unique_ips": 27,
+      "origin_total": null,
+      "origin_bot": null,
+      "origin_human": null,
+      "human_product_views": null,
+      "human_unique_ips": null,
       "partial_day": false
     },
     {
@@ -184,12 +169,12 @@
       "cf_cached": 33556,
       "cf_uniques": 2098,
       "log_covered": true,
-      "log_partial": false,
-      "origin_total": 76829,
-      "origin_bot": 71088,
-      "origin_human": 5741,
-      "human_product_views": 97,
-      "human_unique_ips": 925,
+      "log_partial": true,
+      "origin_total": 1188,
+      "origin_bot": 1124,
+      "origin_human": 64,
+      "human_product_views": 0,
+      "human_unique_ips": 26,
       "partial_day": false
     },
     {
@@ -224,29 +209,44 @@
     },
     {
       "date": "2026-11-25",
-      "cf_requests": 34276,
-      "cf_pageviews": 9497,
-      "cf_cached": 9739,
-      "cf_uniques": 562,
+      "cf_requests": 103089,
+      "cf_pageviews": 28375,
+      "cf_cached": 28285,
+      "cf_uniques": 1690,
+      "log_covered": true,
+      "log_partial": false,
+      "origin_total": 78872,
+      "origin_bot": 73348,
+      "origin_human": 5524,
+      "human_product_views": 108,
+      "human_unique_ips": 893,
+      "partial_day": false
+    },
+    {
+      "date": "2026-11-26",
+      "cf_requests": 31620,
+      "cf_pageviews": 8267,
+      "cf_cached": 8246,
+      "cf_uniques": 587,
       "log_covered": true,
       "log_partial": true,
-      "origin_total": 52549,
-      "origin_bot": 48754,
-      "origin_human": 3795,
-      "human_product_views": 38,
-      "human_unique_ips": 635,
+      "origin_total": 46776,
+      "origin_bot": 44408,
+      "origin_human": 2368,
+      "human_product_views": 28,
+      "human_unique_ips": 695,
       "partial_day": true
     }
   ],
   "traffic_sources": {
-    "window": "2026-11-21 至 2026-11-25（仅日志覆盖日期内的人类产品页浏览）",
+    "window": "2026-11-22 至 2026-11-26（仅日志覆盖日期内的人类产品页浏览）",
     "total": 428,
     "split": {
       "google": 0,
       "pinterest": 0,
       "instagram": 0,
-      "direct": 163,
-      "internal": 264,
+      "direct": 158,
+      "internal": 269,
       "other": 1
     }
   },
@@ -263,8 +263,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-twisted-cable-chain-day-collar-gold-tone-with-polished-barrel-clasp/",
-      "views_14d": 19,
-      "views_today": 3
+      "views_14d": 20,
+      "views_today": 2
     },
     {
       "id": 8601,
@@ -278,7 +278,7 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-braided-mesh-chain-necklace-polished-stainless-steel-with-smooth-barrel-clasp/",
-      "views_14d": 19,
+      "views_14d": 22,
       "views_today": 3
     },
     {
@@ -293,8 +293,8 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-gold-block-bar-necklace-gold-tone-titanium-steel-on-fine-snake-chain-with-lobster-clasp/",
-      "views_14d": 16,
-      "views_today": 2
+      "views_14d": 17,
+      "views_today": 3
     },
     {
       "id": 8599,
@@ -309,7 +309,7 @@
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-beaded-ball-chain-necklace-polished-stainless-steel-with-textured-barrel-clasp/",
       "views_14d": 19,
-      "views_today": 1
+      "views_today": 3
     },
     {
       "id": 8592,
@@ -323,7 +323,7 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/discreet-mirror-pendant-necklace-polished-titanium-steel-on-fine-rope-chain/",
-      "views_14d": 14,
+      "views_14d": 15,
       "views_today": 2
     },
     {
@@ -338,7 +338,7 @@
       "stock_status": "instock",
       "status": "publish",
       "url": "https://discreetcollars.com/product/polished-silver-double-layer-openwork-bangle/",
-      "views_14d": 5,
+      "views_14d": 6,
       "views_today": 0
     },
     {
@@ -359,11 +359,11 @@
   ],
   "content": {
     "blog_last": {
-      "id": 8859,
-      "title": "Matching Without Matching: The Pair of Necklaces Two People Will Both Actually Wear",
-      "date": "2026-11-24 18:18:55",
-      "url": "https://discreetcollars.com/matching-without-matching-pair-necklaces/",
-      "date_cst": "2026-11-25 10:18:55"
+      "id": 8869,
+      "title": "Black Friday's Second Piece: The One You Buy for Someone Else",
+      "date": "2026-11-25 18:14:45",
+      "url": "https://discreetcollars.com/black-friday-second-piece/",
+      "date_cst": "2026-11-26 10:14:45"
     },
     "blog_7d": 5,
     "blog_next": "明日 10:10",
@@ -478,22 +478,17 @@
     "homepage_heroes_found": 5,
     "homepage_error": null,
     "wp_version": "7.1.5",
-    "site_now": "2026-11-24 22:59:29",
+    "site_now": "2026-11-25 23:07:00",
     "plugin_updates": [
-      {
-        "name": "woo-cart-abandonment-recovery",
-        "version": "2.2.2",
-        "update_version": "2.2.3"
-      },
       {
         "name": "kadence-blocks",
         "version": "3.9.1.2",
         "update_version": "3.9.2"
       },
       {
-        "name": "wpforms-lite",
-        "version": "2.0.5.1",
-        "update_version": "2.0.5.2"
+        "name": "seo-by-rank-math",
+        "version": "1.0.282",
+        "update_version": "1.0.283"
       },
       {
         "name": "wp-mail-smtp",
@@ -510,15 +505,15 @@
     },
     "gsc": {
       "status": "已接入（只读）",
-      "reason": "近 28 天点击 6、曝光 149、平均排名 25.0（数据截至 2026-11-23，约滞后 2 天）。"
+      "reason": "近 28 天点击 8、曝光 163、平均排名 24.1（数据截至 2026-11-24，约滞后 2 天）。"
     },
     "ga4": {
       "status": "已接入（只读）",
-      "reason": "GA4（G-YSHC1H91WK）：近 14 天会话 26、用户 17；近 7 天会话 11。"
+      "reason": "GA4（G-YSHC1H91WK）：近 14 天会话 25、用户 17；近 7 天会话 11。"
     },
     "funnel": {
       "status": "部分接入（GA4 事件）",
-      "reason": "近 14 天 GA4 事件：浏览商品 17 → 加购 2 → 开始结账 2 → 购买 1（站内无自有埋点，以 GA4 事件为准）。"
+      "reason": "近 14 天 GA4 事件：浏览商品 9 → 加购 0 → 开始结账 0 → 购买 0（站内无自有埋点，以 GA4 事件为准）。"
     }
   },
   "google": {
@@ -526,33 +521,33 @@
       "status": "ok",
       "error": null,
       "window_14d": {
-        "start": "2026-11-11",
-        "end": "2026-11-24",
-        "sessions": 26,
+        "start": "2026-11-12",
+        "end": "2026-11-25",
+        "sessions": 25,
         "users": 17,
-        "pageviews": 80
+        "pageviews": 61
       },
       "window_7d": {
-        "start": "2026-11-18",
-        "end": "2026-11-24",
+        "start": "2026-11-19",
+        "end": "2026-11-25",
         "sessions": 11,
-        "users": 9,
-        "pageviews": 21
+        "users": 8,
+        "pageviews": 22
       },
       "events_14d": {
-        "view_item": 17,
-        "add_to_cart": 2,
-        "begin_checkout": 2,
-        "purchase": 1
+        "view_item": 9,
+        "add_to_cart": 0,
+        "begin_checkout": 0,
+        "purchase": 0
       },
       "channels_14d": [
         {
           "channel": "Direct",
-          "sessions": 10
+          "sessions": 11
         },
         {
           "channel": "Organic Search",
-          "sessions": 9
+          "sessions": 8
         },
         {
           "channel": "AI Assistant",
@@ -564,7 +559,7 @@
         },
         {
           "channel": "Unassigned",
-          "sessions": 2
+          "sessions": 1
         }
       ]
     },
@@ -572,28 +567,34 @@
       "status": "ok",
       "error": null,
       "window_28d": {
-        "start": "2026-10-28",
-        "end": "2026-11-24",
-        "clicks": 6,
-        "impressions": 149,
-        "ctr": 4.03,
-        "position": 25.0
+        "start": "2026-10-29",
+        "end": "2026-11-25",
+        "clicks": 8,
+        "impressions": 163,
+        "ctr": 4.91,
+        "position": 24.1
       },
       "window_7d": {
-        "start": "2026-11-18",
-        "end": "2026-11-24",
-        "clicks": 1,
-        "impressions": 54,
-        "ctr": 1.85,
-        "position": 13.1
+        "start": "2026-11-19",
+        "end": "2026-11-25",
+        "clicks": 3,
+        "impressions": 61,
+        "ctr": 4.92,
+        "position": 13.3
       },
-      "data_through": "2026-11-23",
+      "data_through": "2026-11-24",
       "top_queries": [
         {
           "query": "discreet day collar",
           "clicks": 2,
           "impressions": 12,
           "position": 23.8
+        },
+        {
+          "query": "discrete day collar",
+          "clicks": 1,
+          "impressions": 2,
+          "position": 34.5
         },
         {
           "query": "collar girth",
@@ -642,20 +643,14 @@
           "clicks": 0,
           "impressions": 3,
           "position": 19.7
-        },
-        {
-          "query": "discreet collar",
-          "clicks": 0,
-          "impressions": 3,
-          "position": 28.7
         }
       ],
       "top_pages": [
         {
           "page": "https://discreetcollars.com/",
-          "clicks": 6,
-          "impressions": 40,
-          "position": 19.4
+          "clicks": 8,
+          "impressions": 46,
+          "position": 18.8
         },
         {
           "page": "https://discreetcollars.com/ItemPage/4942543",
@@ -690,8 +685,8 @@
         {
           "page": "https://discreetcollars.com/day-collar-for-men/",
           "clicks": 0,
-          "impressions": 4,
-          "position": 7
+          "impressions": 5,
+          "position": 7.6
         },
         {
           "page": "https://discreetcollars.com/day-collar-meaning-privacy-context/",
@@ -702,14 +697,14 @@
         {
           "page": "https://discreetcollars.com/day-collars-discretion-trust-research-guide/",
           "clicks": 0,
-          "impressions": 15,
-          "position": 30.7
+          "impressions": 16,
+          "position": 29.4
         },
         {
           "page": "https://discreetcollars.com/discreet-collar-necklace/",
           "clicks": 0,
-          "impressions": 8,
-          "position": 5.9
+          "impressions": 11,
+          "position": 7.4
         }
       ]
     },
@@ -820,7 +815,7 @@
       "payment": "stripe_cc",
       "date_cst": "2026-09-11 07:43:14"
     },
-    "days_since_last_real_order": 75
+    "days_since_last_real_order": 76
   },
   "alerts": [
     {
@@ -831,21 +826,21 @@
     {
       "level": "yellow",
       "tag": "插件更新",
-      "text": "有 4 个插件可更新：woo-cart-abandonment-recovery 2.2.2→2.2.3、kadence-blocks 3.9.1.2→3.9.2、wpforms-lite 2.0.5.1→2.0.5.2、wp-mail-smtp 4.10.4→4.10.5（2026-11-19 曾更新失败 3 个，更新前请先备份）。"
+      "text": "有 3 个插件可更新：kadence-blocks 3.9.1.2→3.9.2、seo-by-rank-math 1.0.282→1.0.283、wp-mail-smtp 4.10.4→4.10.5（2026-11-19 曾更新失败 3 个，更新前请先备份）。"
     },
     {
       "level": "info",
       "tag": "内容",
-      "text": "博客《Matching Without Matching: The Pair of Necklaces Two People Will Both Actually Wear》已发布。"
+      "text": "博客《Black Friday's Second Piece: The One You Buy for Someone Else》已发布。"
     }
   ],
   "notes": [
     "2026-11-17 起 Cloudflare 边缘缓存上线：源站日志只记录未命中缓存的请求，人类产品页浏览为下限，低于真实值。",
-    "源站日志只保留约 2026-11-21 起（旧日志已轮转），此前的人类浏览数无记录。",
+    "源站日志只保留约 2026-11-22 起（旧日志已轮转），此前的人类浏览数无记录。",
     "Cloudflare 今日数据为当日部分值（按 UTC 日统计，到采集时刻）。",
     "订单与博客时间为站内时区（UTC-8）换算为北京时间后统计；站内原记录如 #8499 为 2026-09-10。",
     "加购/结账数来自 GA4 事件（近 14 天），站内无自有埋点；购买事件数与订单数口径不同，以订单为准。",
     "GA4 会话为真实人类会话，与 Cloudflare 去重访客（含爬虫）口径不同，两处数字对不上是正常的。",
-    "GSC 数据约滞后 2 天（本次截至 2026-11-23）；GMC 商品状态为拉取时刻快照，警告未解除前商品仍不展示。"
+    "GSC 数据约滞后 2 天（本次截至 2026-11-24）；GMC 商品状态为拉取时刻快照，警告未解除前商品仍不展示。"
   ]
 }
